@@ -3,11 +3,11 @@
 
 stdenv.mkDerivation rec {
   name = "gnome-sudoku-${version}";
-  version = "3.28.0";
+  version = "3.30.0";
 
   src = fetchurl {
     url = "mirror://gnome/sources/gnome-sudoku/${gnome3.versionBranch version}/${name}.tar.xz";
-    sha256 = "07b4lzniaf3gjsss6zl1lslv18smwc4nrijykvn2z90f423q2xav";
+    sha256 = "1xy986s51jnrcqwan2hy4bjdg6797yr9s7gxx2z2q4j4gkx3qa1f";
   };
 
   passthru = {
