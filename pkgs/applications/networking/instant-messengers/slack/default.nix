@@ -1,6 +1,6 @@
 { darkMode ? false, stdenv, fetchurl, dpkg, makeWrapper
 , alsaLib, atk, cairo, cups, curl, dbus, expat, fontconfig, freetype, glib
-, gnome2, gtk3, gdk_pixbuf, libnotify, libxcb, nspr, nss, pango
+, gnome2, gtk3, gdk_pixbuf, libappindicator, libnotify, libxcb, nspr, nss, pango
 , systemd, xorg, at-spi2-atk }:
 
 let
@@ -23,6 +23,7 @@ let
     gdk_pixbuf
     gtk3
     pango
+    libappindicator
     libnotify
     libxcb
     nspr
